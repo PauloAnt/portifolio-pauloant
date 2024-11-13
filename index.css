@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    /* --background: rgb(15, 14, 32);
+    --background-opacity: rgba(42, 41, 70, 0.5);
+    --input-color: #e7dede;
+    --color-font: whitesmoke;
+    --dark-lighter: rgb(30, 28, 64);      
+    --dark-lightest: rgb(50, 48, 90);      
+    --accent: rgb(80, 75, 130);            
+    --highlight: rgb(130, 120, 180);       
+    --text-light: rgb(200, 200, 220); 
+    --text-dark: rgb(10, 10, 25); */
+
+    --background: #0b0c1c;         
+    --background-accent: #1a1c30;  
+    --star-light: #f5f5f7;          
+    --highlight: #ffd700;           
+    --highlight-dim: #b39c50;       
+    --primary-accent: #4b61a1;      
+    --secondary-accent: #7287c1;    
+    --text-light: #eaeaea;          
+    --text-dark: #3e3d56;           
+    
+
+    --font-roboto: "Roboto", sans-serif;
+    --font-montserrat: "Montserrat", sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: var(--background);
+    font-family: var(--font-roboto);
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+a:visited {
+    color: inherit;
+    text-decoration: none;
+}

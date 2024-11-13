@@ -1,0 +1,51 @@
+footer{
+    display: flex;
+    justify-content: space-between;
+    color: var(--text-light);
+    background-color: var(--background-accent);
+    height: 150px;
+    align-items: center;
+    text-align: center;
+}
+.f-link-rapido{
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px;
+}
+
+.f-link-rapido p{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.f-link-rapido a{
+    font-size: 14px;
+    text-decoration: underline;
+    margin: 3px 0;
+    transition: 0.5s;
+}
+
+.f-contato{
+    margin-left: 100px;
+}
+
+.f-contato p{
+    font-weight: bold;
+    font-size: 18px;
+}
+.f-contato i{
+    font-size: 22px;
+    margin: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.f-link-rapido a:hover{
+    color: var(--highlight);
+    transition: 0.5s;
+}
+
+.f-contato i:hover{
+    color: var(--highlight);
+    transform: scale(1.1);
+    transition: 0.5s;
+}

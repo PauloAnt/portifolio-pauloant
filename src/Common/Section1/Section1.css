@@ -1,0 +1,95 @@
+.home{
+    width: 100%;
+    height: 100vh;
+}
+.home::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url(../../images/space-s1-2and.png);
+    background-size: cover;
+    background-position: center;
+    filter: brightness(0.8) contrast(1.2) saturate(1.5) blur(2px); 
+}
+/* Seção 1 */
+.section1 {
+    width: 100%;
+    height: 90%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+
+.s1-home-apresensation-text{
+    z-index: 1;
+}
+
+.s1-container-text {
+    padding: 40px;
+    border-radius: 12px;
+    text-align: center;
+    color: var(--text-light);
+    display: inline-block;
+}
+
+.s1-container-text h1 {
+    font-family: var(--font-montserrat);
+    text-transform: uppercase;
+    font-size: 40px;
+    background: linear-gradient(60deg, var(--text-light), var(--highlight-dim));
+    -webkit-background-clip: text;
+    background-clip: none;
+    color: transparent;
+    margin: 10px 0;
+}
+
+.s1-container-text h3 {
+    font-size: 25px;
+    color: var(--text-light);
+}
+
+.s1-container-text button{
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 15px 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.s1-btn-curriculo{
+    background-color: var(--primary-accent);
+    color: var(--text-light);
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    margin: 15px 0;
+}
+
+.s1-btn-contato{
+    background-color: transparent;
+    border: 2px solid var(--primary-accent);
+    color: var(--text-light);
+    padding: 9px 20px;
+    
+}
+
+.s1-btn-curriculo:hover {
+    background-color: var(--secondary-accent);
+}
+
+.s1-btn-contato:hover{
+    border: 2px solid var(--secondary-accent);
+}
+
+
+.s1-home-rocket {
+    z-index: 1;
+}
+
+/* Seção 2 */

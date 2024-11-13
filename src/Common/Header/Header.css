@@ -1,0 +1,28 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    color: var(--text-light);
+    font-size: 23px;
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+    padding: 30px 0;
+    height: 10%;
+    width: 100%;
+}
+
+.header-left{
+    text-transform: uppercase;;
+}
+
+.header-right a, .header-left a{
+    margin: 0 70px;
+    display: inline-block;
+    transition: 0.3s;
+}
+    
+.header-right a:hover, .header-left a:hover{
+
+    transition: 0.3s;
+    transform: scale(1.1);
+}
