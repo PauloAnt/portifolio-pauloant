@@ -12,7 +12,6 @@
     background-position: center;
     filter: brightness(0.8) contrast(1.2) saturate(1.5) blur(2px); 
 }
-/* Seção 1 */
 .section1 {
     width: 100%;
     height: 90%;
@@ -24,8 +23,18 @@
     overflow: hidden;
 }
 
+.s1-home-rocket{
+    z-index: 1;
+}
 
-.s1-home-apresensation-text{
+.s1-home-rocket img {
+    width: 100%;
+    max-width: 330px;
+    height: auto;
+    object-fit: contain;
+}
+
+.s1-home-apresensation-text {
     z-index: 1;
 }
 
@@ -53,7 +62,7 @@
     color: var(--text-light);
 }
 
-.s1-container-text button{
+.s1-container-text button {
     border-radius: 8px;
     font-size: 16px;
     font-weight: bold;
@@ -62,34 +71,47 @@
     transition: 0.3s;
 }
 
-.s1-btn-curriculo{
+.s1-btn-curriculo {
     background-color: var(--primary-accent);
     color: var(--text-light);
     padding: 10px 20px;
     font-size: 16px;
     border: none;
-    margin: 15px 0;
 }
 
-.s1-btn-contato{
+.s1-btn-contato {
     background-color: transparent;
     border: 2px solid var(--primary-accent);
     color: var(--text-light);
     padding: 9px 20px;
-    
 }
 
 .s1-btn-curriculo:hover {
     background-color: var(--secondary-accent);
 }
 
-.s1-btn-contato:hover{
+.s1-btn-contato:hover {
     border: 2px solid var(--secondary-accent);
 }
 
+@media (max-width: 768px) {
+    .section1 {
+        grid-template-columns: 1fr;
+        text-align: center;
+        padding: 20px;
+    }
 
-.s1-home-rocket {
-    z-index: 1;
+    .s1-container-text h1 {
+        font-size: 30px;
+    }
+
+    .s1-btn-curriculo,
+    .s1-btn-contato {
+        width: 80%;
+        margin: 10px 0;
+    }
+
+    .s1-home-rocket{
+        display: none;
+    }
 }
-
-/* Seção 2 */

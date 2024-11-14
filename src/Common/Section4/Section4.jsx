@@ -7,7 +7,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 
-export default function Section3(){
+export default function Section4() {
     const [projects, setProjects] = useState([]);
 
     useEffect(() => {
@@ -15,7 +15,7 @@ export default function Section3(){
             try {
                 const response = await api.get("/api/project");
                 setProjects(response.data.data);
-            } catch(err) {
+            } catch (err) {
                 alert("Ocorreu um erro, tente novamente.");
                 console.log(err.message);
             }
@@ -28,11 +28,11 @@ export default function Section3(){
     }
 
     return (
-        <div className="section3" id="section3">
-            <div className="s3-title">
+        <div className="section4" id="section4">
+            <div className="s4-title">
                 <h1>Projetos</h1>
             </div>
-            <div className="s3-projects">
+            <div className="s4-projects">
                 <Swiper
                     modules={[Pagination, Navigation]}
                     slidesPerView={1}
@@ -41,7 +41,7 @@ export default function Section3(){
                 >
                     {projects.map((e) => (
                         <SwiperSlide key={e.id}>
-                            <div className="s3-container-project">
+                            <div className="s4-container-project">
                                 <h1>{e.name}</h1>
                                 <img src={e.image} width={450} alt={`Imagem de ${e.name}`} />
                                 <p>{e.description}</p>
@@ -51,7 +51,6 @@ export default function Section3(){
                     ))}
                 </Swiper>
             </div>
-            
         </div>
     );
 }

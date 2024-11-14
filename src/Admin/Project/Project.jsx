@@ -11,6 +11,12 @@ export default function Projetos() {
     const token = localStorage.getItem('token');
 
     useEffect(() => {
+
+        if(!token){
+            alert("Você não tem acesso a essa página.");
+            navigate("/");
+        }
+
         const fetchProjects = async () => {
             try {
                 const response = await api.get("/api/project", {
@@ -33,7 +39,7 @@ export default function Projetos() {
         try {
             await api.delete(`/api/project/${id}`, { headers: { Authorization: `Bearer ${token}` } });
             setProjects(projects.filter(project => project.id !== id));
-            navigate("/project");
+            navigate(0);
         } catch (err) {
             alert("Ocorreu um erro ao deletar o projeto, tente novamente.");
             console.log(err.message);

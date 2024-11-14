@@ -4,6 +4,7 @@
     align-items: center;
     padding: 50px;
     height: 100vh;
+    flex-direction: column;
 }
 
 .s2-info {
@@ -65,4 +66,55 @@
     text-align: justify;
     line-height: 1.6;
     padding: 0 15px;
+}
+
+@media (max-width: 768px) {
+    .section2 {
+        padding: 30px 20px;
+    }
+
+    .s2-info {
+        padding: 20px;
+    }
+
+    .s2-info h1 {
+        font-size: 2rem;
+    }
+
+    .s2-info img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .s2-social-media i {
+        font-size: 30px;
+    }
+
+    .s2-info p {
+        font-size: 1rem;
+        padding: 0 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .s2-info {
+        padding: 15px;
+    }
+
+    .s2-info h1 {
+        font-size: 1.8rem;
+    }
+
+    .s2-info img {
+        width: 130px;
+        height: 130px;
+    }
+
+    .s2-social-media i {
+        font-size: 28px;
+    }
+
+    .s2-info p {
+        font-size: 0.95rem;
+    }
 }

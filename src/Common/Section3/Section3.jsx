@@ -7,7 +7,7 @@ import serviceScript from "../../images/script.png";
 
 export default function Section3(){
     return(
-        <section id="servicos" className="services-section">
+        <section id="section3" className="section3">
             <h2>Serviços</h2>
             <p className='margin-bottom-15px'>Ofereço soluções tecnológicas para atender às suas necessidades, seja para desenvolvimento web, APIs robustas, integração de sistemas ou automação de processos.</p>
         

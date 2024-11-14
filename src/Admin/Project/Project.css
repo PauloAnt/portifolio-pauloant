@@ -1,5 +1,3 @@
-/* Estilização geral para o painel admin */
-
 .admin-upper-text{
     display: flex;
     color: var(--text-light);
@@ -92,7 +90,6 @@
 }
 
 
-/* Responsividade */
 @media (max-width: 768px) {
     .admin-projects {
         flex-direction: column;
