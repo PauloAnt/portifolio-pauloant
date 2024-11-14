@@ -7,14 +7,12 @@ export default function Section1(){
 
 
     const downloadCurriculo = () => {
-        window.open('https://drive.google.com/file/d/1wWUczk1qJIJ8NZU9ZBbLw1oRRNcG_Frr/view?usp=drive_link', '_blank');
+        window.open('https://drive.google.com/file/d/19cxiLb0vDXfoiNvpFxQgg0CnVhHuTD7d/view?usp=drive_link', '_blank');
     };
 
     const contatoLink = () => {
         window.location.href = 'mailto:pauloantbf@gmail.com'
     }
-
-    
 
 
     return (
