@@ -26,7 +26,7 @@ export default function Section2(){
                 </div>
                 
                 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    Sou formado em Técnico em Informática e atualmente cursando Sistemas para Internet. Sou desenvolvedor web com experiência em NodeJS, SpringBoot e React, e me especializo na criação de APIs e páginas de sites. 
+                    Sou formado em Técnico em Informática e atualmente cursando Sistemas para Internet. Sou desenvolvedor web com experiência em NodeJS, SpringBoot e React, tenho foco na criação de APIs e páginas de sites. 
                     Tenho paixão por transformar ideias em soluções digitais eficientes e inovadoras, sempre em busca de aprender novas tecnologias. </p>
             </div>
             
