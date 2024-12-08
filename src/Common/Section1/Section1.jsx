@@ -7,7 +7,7 @@ export default function Section1(){
 
 
     const downloadCurriculo = () => {
-        window.open('https://drive.google.com/file/d/19cxiLb0vDXfoiNvpFxQgg0CnVhHuTD7d/view?usp=drive_link', '_blank');
+        window.open('https://drive.google.com/file/d/19cxiLb0vDXfoiNvpFxQgg0CnVhHuTD7d/view?usp=sharing', '_blank');
     };
 
     const contatoLink = () => {
